@@ -1,6 +1,4 @@
-
-echo Check updates from github.
-call git pull
+@echo off
 echo Check updates from node modules.
 call npm i
 echo Start server.
